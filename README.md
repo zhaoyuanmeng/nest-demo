@@ -58,16 +58,14 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+##  常用命令
+<!-- 注意顺序 -->
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- nest g mo posts  创建moudles
+- nest g co posts  创建controller
+- nest g service posts 创建服务类
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
-
-Nest is [MIT licensed](LICENSE).
+## 操作数据库
+npm install @nestjs/typeorm typeorm mysql2 -S
