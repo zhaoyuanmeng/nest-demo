@@ -69,3 +69,12 @@ $ npm run test:cov
 
 ## 操作数据库
 npm install @nestjs/typeorm typeorm mysql2 -S
+
+
+
+## ORM 技术
+把关系数据库的变结构映射到对象上。
+
+
+## 接口格式统一
+nest g filter core/filter/http-exception
