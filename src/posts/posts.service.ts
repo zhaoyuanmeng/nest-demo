@@ -34,7 +34,6 @@ export class PostsService {
     const qb = await getRepository(PostsEntity).createQueryBuilder('post');
     qb.where('1 = 1');
     qb.orderBy('post.create_time', 'DESC');
-
     const count = await qb.getCount();
     const { pageNum = 1, pageSize = 10, ...params } = query;
     qb.limit(pageSize);
